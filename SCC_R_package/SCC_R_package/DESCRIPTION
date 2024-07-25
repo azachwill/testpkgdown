@@ -1,0 +1,27 @@
+Package: SCCTempConverter
+Type: Package
+Title: Temperature Conversion Package for Demonstration
+Version: 0.0.1.0
+Authors@R: c(
+  person("Tomasz", "Kalinowski", role = c("aut", "cph", "cre"),
+         email = "tomasz@posit.co"),
+  person("Daniel", "Falbel", role = c("ctb", "cph"), email = "daniel@posit.co"),
+  person("JJ", "Allaire", role = c("aut", "cph")),
+  person("François", "Chollet", role = c("aut", "cph")),
+  person("Posit Software, PBC", role = c("cph", "fnd")),
+  person("Google", role = c("cph", "fnd")),
+  person("Yuan", "Tang", role = c("ctb", "cph"),
+         email = "terrytangyuan@gmail.com",
+         comment = c(ORCID = "0000-0001-5243-233X")),
+  person("Wouter", "Van Der Bijl", role = c("ctb", "cph")),
+  person("Martin", "Studer", role = c("ctb", "cph")),
+  person("Sigrid", "Keydana", role = c("ctb"))
+  )
+Description: Temperature converter.
+Encoding: UTF-8
+License: MIT + file LICENSE
+RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
